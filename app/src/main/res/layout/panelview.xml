@@ -10,10 +10,6 @@
     android:orientation="vertical"
     tools:context=".Panel">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fillViewport="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -341,7 +337,7 @@
                 android:id="@+id/linearFarg"/>
 
         </LinearLayout>
-    </ScrollView>
+
 
 
 

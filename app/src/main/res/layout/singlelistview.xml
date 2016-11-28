@@ -21,7 +21,6 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_alignParentRight="true"
-
         >
     <Button
         android:layout_width="80dp"
