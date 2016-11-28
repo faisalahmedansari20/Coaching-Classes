@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+       >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            >
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/LecturesTimes"
+            android:id="@+id/LectureTimeSpinner"
+            android:prompt="@string/time"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Subject"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/lectureSubjectEditText"
+            android:layout_weight="1"
+            />
+</LinearLayout>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Organise Lecture"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/TeacherBookLectureButton"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/indigo"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

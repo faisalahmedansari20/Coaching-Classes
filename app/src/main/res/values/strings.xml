@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">College</string>
+
+    <string-array name="panelName">
+        <item>CollegeAdmin</item>
+        <item>HOD</item>
+        <item>Teacher</item>
+        <item>Student</item>
+    </string-array>
+
+    <string-array name="hod">
+        <item>Teacher</item>
+        <item>Student</item>
+    </string-array>
+
+    <string-array name="LecturesTimes">
+        <item>7am to 8am</item>
+        <item>8am to 9am</item>
+        <item>9am to 10am</item>
+        <item>10:30am to 11:30am</item>
+        <item>11:30am to 12:30pm</item>
+        <item>12:30pm to 1:30pm</item>
+    </string-array>
+
+    <string-array name="studentpanel">
+        <item>Lectures</item>
+        <item>library</item>
+    </string-array>
+
+    <string-array name="Library">
+        <item>Core Java</item>
+        <item>Advance Java</item>
+        <item>Android</item>
+        <item>.Net</item>
+        <item>php</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Biology</item>
+        <item>Inorganic Science</item>
+        <item>Zoology</item>
+        <item>Business Finance</item>
+        <item>Industrial Economics</item>
+        <item>Environmental awarness</item>
+    </string-array>
+
+    <string-array name="LibraryBookStream">
+        <item>Software</item>
+        <item>Software</item>
+        <item>Software</item>
+        <item>Software</item>
+        <item>Software</item>
+        <item>Chemistry</item>
+        <item>Chemistry</item>
+        <item>Chemistry</item>
+        <item>Chemistry</item>
+        <item>Biology</item>
+        <item>Commerce</item>
+        <item>Commerce</item>
+        <item>Commerce</item>
+
+    </string-array>
+
+
+    <string name="Student">Student</string>
+    <string name="lecture">Lectures</string>
+    <string name="time">7am to 8am</string>
+    <string name="promtHOD">Teacher</string>
+</resources>
